@@ -12,6 +12,6 @@
 
 - Create an account with LoadImpact here to use the cloud run: [https://app.loadimpact.com/account/login](https://app.loadimpact.com/account/login)
 - Replace `LI_TOKEN` in the `Dockerfile` with your account token.
-- `docker-compose run k6 run /tests/cura_healthcare_service.js` to run the test in the cloud
+- `docker-compose run k6 run /app/tests/cura_healthcare_service.js` to run the test in the cloud
 
 Look through the k6 docs here: https://support.loadimpact.com/4.0/
