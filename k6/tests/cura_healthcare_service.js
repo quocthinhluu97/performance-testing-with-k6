@@ -2,7 +2,7 @@
 
 import { group, sleep } from 'k6'
 import http from 'k6/http'
-import { randomlyPickValueFromObject, checkStatus } from '/code/utils.js'
+import { randomlyPickValueFromObject, checkStatus } from '/app/utils.js'
 
 const facility = {
  SEOUL: 'Seoul CURA Healthcare Center',
